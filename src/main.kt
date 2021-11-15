@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
         '*' -> result = first * second
         '/' -> result = first / second
         else -> {
-            System.out.printf("Error! operator is not invalid")
+            System.out.printf("Error! operator is invalid")
             return
         }
     }
